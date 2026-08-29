@@ -1973,7 +1973,7 @@ static int structor_get_param(void *instance, const char *key, char *buf, int bu
             "{\"key\":\"seq_time\",\"name\":\"Seq Time\",\"type\":\"int\",\"min\":10,\"max\":1000,\"step\":5},"
             "{\"key\":\"seq_mult\",\"name\":\"Seq Mult\",\"type\":\"enum\",\"options\":[\"1/8\",\"1/4\",\"1/2\",\"3/4\",\"1x\",\"1.5x\",\"2x\",\"3x\",\"4x\"],\"default\":4},"
             "{\"key\":\"detection\",\"name\":\"Detection\",\"type\":\"float\",\"min\":0,\"max\":1,\"step\":0.01},"
-            "{\"key\":\"rnd_filter\",\"name\":\"Rnd Filter\",\"type\":\"float\",\"min\":0,\"max\":1,\"step\":0.01},"
+            "{\"key\":\"rnd_filter\",\"short_name\":\"Filter\",\"name\":\"Rnd Filter\",\"type\":\"float\",\"min\":0,\"max\":1,\"step\":0.01},"
             "{\"key\":\"preset\",\"name\":\"Preset\",\"type\":\"int\",\"min\":0,\"max\":19,\"step\":1},"
             "{\"key\":\"rnd_preset\",\"name\":\"Rnd Preset\",\"type\":\"float\",\"min\":0,\"max\":1,\"step\":0.01},"
             "{\"key\":\"master_filter\",\"name\":\"Filter\",\"type\":\"float\",\"min\":0,\"max\":1,\"step\":0.01},"
